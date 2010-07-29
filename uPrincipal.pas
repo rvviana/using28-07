@@ -4,10 +4,14 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, ExtCtrls, StdCtrls;
 
 type
   TForm1 = class(TForm)
+    btnTeste: TButton;
+    mmoTeste: TMemo;
+    lbledtTeste: TLabeledEdit;
+    procedure btnTesteClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -20,5 +24,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.btnTesteClick(Sender: TObject);
+begin
+     mmoTeste.Lines.Add(lbledtTeste.Text);
+end;
 
 end.

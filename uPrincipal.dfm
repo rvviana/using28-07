@@ -29,6 +29,7 @@ object Form1: TForm1
     Height = 89
     Lines.Strings = (
       'mmoTeste')
+    ScrollBars = ssVertical
     TabOrder = 1
   end
   object lbledtTeste: TLabeledEdit

@@ -1,0 +1,11 @@
+projeto a:
+
+inicio{
+
+faça ações
+
+
+finaliza
+
+
+fim}

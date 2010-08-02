@@ -28,6 +28,7 @@ implementation
 procedure TForm1.btnTesteClick(Sender: TObject);
 begin
      mmoTeste.Lines.Add(lbledtTeste.Text);
+     //coments
 end;
 
 end.
